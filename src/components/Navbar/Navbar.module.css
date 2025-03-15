@@ -1,0 +1,89 @@
+@import "../../vars.css";
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    padding-top: 61px;
+    margin: 0 10%;
+    z-index: 2;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.menuItems {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    color: var(--color-text);
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+/* Default menu styles */
+.menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(25, 55, 109), rgb(55, 105, 155)); /* Linear gradient */
+    position: absolute;
+    right: 0;
+    margin-right: 4%;
+    margin-top: 23%;
+    z-index: 3;
+    list-style-type: none;
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Mobile Menu Styles - Display when toggled */
+.showMenu {
+    display: flex;
+}
+
+/* Style for links */
+.menu a {
+    font-size: 25px;
+    color: var(--color-text);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Media Query for Mobile  */
+@media screen and (max-width: 830px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Mobile Menu Styles */
+    .menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 1px;
+        border-radius: 10px;
+        background-color: rgb(25, 55, 109);
+    }
+
+    /* Show menu when toggled */
+    .showMenu {
+        display: flex;
+    }
+}

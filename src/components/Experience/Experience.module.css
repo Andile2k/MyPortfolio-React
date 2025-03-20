@@ -1,0 +1,112 @@
+
+.container {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px; /* Adds space at the bottom */
+}
+
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction:column;
+    gap: 40px;
+    margin-top: 19px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: none; 
+    text-align: center;
+    gap: 80px;                                   
+    flex-wrap: wrap;                                
+    padding-top: 35px;
+}
+
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.skillImage {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.skillImage:hover {
+    transform: scale(1.2);
+}
+
+
+.companyLogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    gap: 15px;
+}
+
+.companyLogo {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+
+.historyItemDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 10px;
+}
+
+.historyItemDetails ul {
+    padding-left: 20px;
+    list-style: none;
+    gap: 17px;
+}
+
+.historyItemDetails p {
+    padding-left: 20px;
+    list-style: none;
+    gap: 17px;
+}
+
+.historyItemDetails h3 {
+    padding-left: 20px;
+    list-style: none;
+    gap: 17px;
+}
+
+
+.historyItem {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+
+.companyLogo:hover {
+    transform: scale(1.5);
+    transition: transform 0.2s ease-in-out;
+    
+
+}

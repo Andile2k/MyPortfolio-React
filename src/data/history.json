@@ -1,0 +1,18 @@
+[
+    {
+      "role": "Full Stack Developer",
+      "organisation": "Shaper",
+      "startDate": "Apr, 2024",
+      "endDate": "Mar, 2025",
+      "experiences": ["Worked on building applications end to end with good functionality", "Designed UI/UX for user experience"],
+      "imageSrc": "/Shaper.png"
+    },
+    {
+      "role": "Software Developer Intern",
+      "organisation": "Absa",
+      "startDate": "Oct, 2024",
+      "endDate": "Mar, 2025",
+      "experiences": ["Fixed bugs and made sure the application was free from bugs to work properly", "Added missing features to the desierd quality"],
+      "imageSrc": "/Absa.Logo.png"
+    }
+  ]

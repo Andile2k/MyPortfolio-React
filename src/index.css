@@ -4,3 +4,16 @@
   padding: 0;
   font-family: "outfit", Arial, Helvetica, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth !important;
+  overflow: scroll;
+  scrollbar-color: #0b2447 #0b2447bd;
+  scrollbar-width: 1px !important;
+
+}
+
+
+::-webkit-scrollbar {
+  width: 1px;
+}

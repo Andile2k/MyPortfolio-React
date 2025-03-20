@@ -1,0 +1,34 @@
+[
+  {
+    "title": "React",
+    "imageSrc": "/programing.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "/css-3.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "/js.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "/java.png"
+  },
+  {
+    "title": "SpringBoot",
+    "imageSrc": "/leaf.png"
+  }, 
+  {
+    "title": "SQL",
+    "imageSrc": "/sql.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "/figma.png"
+  }
+]
